@@ -1,0 +1,96 @@
+[
+  [
+    [
+      "kicker",
+      "What gets you hired · Day 10"
+    ],
+    [
+      "hero",
+      "\"Fails one test.\nWalk me through it.\""
+    ],
+    [
+      "code",
+      [
+        "def count_words(s):",
+        "    return len(s.split(\" \"))"
+      ]
+    ],
+    [
+      "chip",
+      [
+        "fail",
+        "Failed",
+        "count_words(\"a  b\") → 3, expected 2"
+      ]
+    ]
+  ],
+  [
+    [
+      "kicker",
+      "Bad answer"
+    ],
+    [
+      "quote",
+      {
+        "cls": "a",
+        "who": "candidate 1",
+        "text": "\"Splits on spaces and counts. Should work.\""
+      }
+    ]
+  ],
+  [
+    [
+      "kicker_blue",
+      "Good answer"
+    ],
+    [
+      "quote",
+      {
+        "cls": "b",
+        "who": "candidate 2",
+        "text": "\"split(' ') keeps the empty string between two spaces, so double spaces count as a word. split() with no argument collapses whitespace and drops empties.\""
+      }
+    ],
+    [
+      "code",
+      [
+        [
+          "hl",
+          "    return len(s.split(\" \"))"
+        ],
+        [
+          "ok",
+          "    return len(s.split())"
+        ]
+      ]
+    ]
+  ],
+  [
+    [
+      "kicker",
+      "Why it matters"
+    ],
+    [
+      "hero",
+      "Interviewers grade what you read before you run."
+    ],
+    [
+      "body",
+      "The failing input tells you where to look."
+    ]
+  ],
+  [
+    [
+      "apptitle",
+      "Reflecka"
+    ],
+    [
+      "sub",
+      "Read real code. Say what breaks. Get scored."
+    ],
+    [
+      "cta",
+      "Start a session → reflecka.com"
+    ]
+  ]
+]
