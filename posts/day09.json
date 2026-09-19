@@ -1,0 +1,68 @@
+[
+  [
+    [
+      "kicker",
+      "What gets you hired · Day 9"
+    ],
+    [
+      "hero",
+      "\"Your solution is O(n²).\nIs that a problem?\""
+    ]
+  ],
+  [
+    [
+      "kicker",
+      "Bad answer"
+    ],
+    [
+      "quote",
+      {
+        "cls": "a",
+        "who": "candidate 1",
+        "text": "\"I can optimize it.\""
+      }
+    ]
+  ],
+  [
+    [
+      "kicker_blue",
+      "Good answer"
+    ],
+    [
+      "quote",
+      {
+        "cls": "b",
+        "who": "candidate 2",
+        "text": "\"Depends on n. Ten thousand items is a hundred million steps, which runs in seconds here. If the input grows I'd switch to a hash map, but I wouldn't add complexity for a case we don't have.\""
+      }
+    ]
+  ],
+  [
+    [
+      "kicker",
+      "Why it matters"
+    ],
+    [
+      "hero",
+      "Interviewers grade the tradeoff, not the Big O."
+    ],
+    [
+      "body",
+      "Know when good enough is right."
+    ]
+  ],
+  [
+    [
+      "apptitle",
+      "Reflecka"
+    ],
+    [
+      "sub",
+      "Read real code. Say what breaks. Get scored."
+    ],
+    [
+      "cta",
+      "Start a session → reflecka.com"
+    ]
+  ]
+]

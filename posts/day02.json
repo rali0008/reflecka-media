@@ -1,0 +1,96 @@
+[
+  [
+    [
+      "kicker",
+      "What gets you hired · Day 2"
+    ],
+    [
+      "hero",
+      "\"Would you\nship it?\""
+    ],
+    [
+      "code",
+      [
+        "def dedupe(items):",
+        "    return list(set(items))"
+      ]
+    ],
+    [
+      "chip",
+      [
+        "pass",
+        "Passed",
+        "4 / 4 tests"
+      ]
+    ]
+  ],
+  [
+    [
+      "kicker",
+      "Bad answer"
+    ],
+    [
+      "quote",
+      {
+        "cls": "a",
+        "who": "candidate 1",
+        "text": "\"Tests pass. Ship it.\""
+      }
+    ]
+  ],
+  [
+    [
+      "kicker_blue",
+      "Good answer"
+    ],
+    [
+      "quote",
+      {
+        "cls": "b",
+        "who": "candidate 2",
+        "text": "\"It works, but set() drops the order. If a user ever sees this list, that's a bug the tests don't catch. I'd use dict.fromkeys instead.\""
+      }
+    ],
+    [
+      "code",
+      [
+        [
+          "hl",
+          "    return list(set(items))"
+        ],
+        [
+          "ok",
+          "    return list(dict.fromkeys(items))"
+        ]
+      ]
+    ]
+  ],
+  [
+    [
+      "kicker",
+      "Why it matters"
+    ],
+    [
+      "hero",
+      "Interviewers grade what you notice."
+    ],
+    [
+      "body",
+      "Not what you type."
+    ]
+  ],
+  [
+    [
+      "apptitle",
+      "Reflecka"
+    ],
+    [
+      "sub",
+      "Read real code. Say what breaks. Get scored."
+    ],
+    [
+      "cta",
+      "Start a session → reflecka.com"
+    ]
+  ]
+]

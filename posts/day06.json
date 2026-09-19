@@ -1,0 +1,101 @@
+[
+  [
+    [
+      "kicker",
+      "What gets you hired · Day 6"
+    ],
+    [
+      "hero",
+      "\"Fails one test.\nWalk me through it.\""
+    ],
+    [
+      "code",
+      [
+        "def add(item, items=[]):",
+        "    items.append(item)",
+        "    return items"
+      ]
+    ],
+    [
+      "chip",
+      [
+        "fail",
+        "Failed",
+        "add(2) → [1, 2], expected [2]"
+      ]
+    ]
+  ],
+  [
+    [
+      "kicker",
+      "Bad answer"
+    ],
+    [
+      "quote",
+      {
+        "cls": "a",
+        "who": "candidate 1",
+        "text": "\"Appends and returns. Maybe the test is wrong?\""
+      }
+    ]
+  ],
+  [
+    [
+      "kicker_blue",
+      "Good answer"
+    ],
+    [
+      "quote",
+      {
+        "cls": "b",
+        "who": "candidate 2",
+        "text": "\"The default list is created once when the function is defined, so every call shares it. The second call sees the first call's item. Default to None and build the list inside.\""
+      }
+    ],
+    [
+      "code",
+      [
+        [
+          "hl",
+          "def add(item, items=[]):"
+        ],
+        [
+          "ok",
+          "def add(item, items=None):"
+        ],
+        [
+          "ok",
+          "    items = items or []"
+        ]
+      ]
+    ]
+  ],
+  [
+    [
+      "kicker",
+      "Why it matters"
+    ],
+    [
+      "hero",
+      "Interviewers grade what you explain before you type."
+    ],
+    [
+      "body",
+      "Not what you type."
+    ]
+  ],
+  [
+    [
+      "apptitle",
+      "Reflecka"
+    ],
+    [
+      "sub",
+      "Read real code. Say what breaks. Get scored."
+    ],
+    [
+      "cta",
+      "Start a session → reflecka.com"
+    ]
+  ]
+]

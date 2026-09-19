@@ -1,0 +1,41 @@
+[
+  [
+    ["kicker", "What gets you hired · Day 1"],
+    ["hero", "Two candidates.\nSame bug.\nOne got the offer."],
+    ["code", [
+      "def max_of(nums):",
+      "    best = None",
+      "    for n in nums:",
+      "        if n > best:",
+      "            best = n",
+      "    return best",
+      "",
+      ["c", "# \"Fails one test. Walk me through it.\""]
+    ]]
+  ],
+  [
+    ["kicker", "Candidate A"],
+    ["quote", {"cls": "a", "who": "45 seconds in", "text": "\"Uh, let me look… I think maybe the loop? Let me just run it and see what happens.\""}],
+    ["body", "Hands on the keyboard before saying what the code does."]
+  ],
+  [
+    ["kicker_blue", "Candidate B"],
+    ["quote", {"cls": "b", "who": "45 seconds in", "text": "\"It walks the list, tracks a running max, returns it. The failure is probably the first comparison, since best starts as None.\""}],
+    ["code", [
+      "    best = None",
+      ["hl", "        if n > best:"],
+      ["c", "# int > None raises TypeError"]
+    ]]
+  ],
+  [
+    ["kicker", "Same knowledge. Different outcome."],
+    ["hero", "Interviewers grade judgment, not typing."],
+    ["body", "Can you read unfamiliar code and say what it does, out loud, before you touch it?"]
+  ],
+  [
+    ["kicker_blue", "Reflecka"],
+    ["h1", "Practice it out loud.\nNaomi grades the delivery."],
+    ["metrics", [["g","134","words per minute","ideal 115 to 160"],["o","5","fillers and hedges","aim for 3 or fewer"],["g","2.1s","longest pause","healthy under 5s"],["o","2:04","time speaking","1:26 left unused"]]],
+    ["cta", "Try it at reflecka.com"]
+  ]
+]

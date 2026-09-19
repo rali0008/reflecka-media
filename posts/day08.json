@@ -1,0 +1,102 @@
+[
+  [
+    [
+      "kicker",
+      "What gets you hired · Day 8"
+    ],
+    [
+      "hero",
+      "\"AI wrote this.\nDoes it do what you asked?\""
+    ],
+    [
+      "code",
+      [
+        "from datetime import datetime",
+        "",
+        "def log(msg, ts=datetime.now()):",
+        "    print(ts, msg)"
+      ]
+    ],
+    [
+      "chip",
+      [
+        "pass",
+        "Passed",
+        "2 / 2 tests"
+      ]
+    ]
+  ],
+  [
+    [
+      "kicker",
+      "Bad answer"
+    ],
+    [
+      "quote",
+      {
+        "cls": "a",
+        "who": "candidate 1",
+        "text": "\"Timestamps look fine in the output.\""
+      }
+    ]
+  ],
+  [
+    [
+      "kicker_blue",
+      "Good answer"
+    ],
+    [
+      "quote",
+      {
+        "cls": "b",
+        "who": "candidate 2",
+        "text": "\"now() runs once when the function is defined, so every log line gets the same time. It passes a test that only calls it once. Compute the time inside the body.\""
+      }
+    ],
+    [
+      "code",
+      [
+        [
+          "hl",
+          "def log(msg, ts=datetime.now()):"
+        ],
+        [
+          "ok",
+          "def log(msg, ts=None):"
+        ],
+        [
+          "ok",
+          "    ts = ts or datetime.now()"
+        ]
+      ]
+    ]
+  ],
+  [
+    [
+      "kicker",
+      "Why it matters"
+    ],
+    [
+      "hero",
+      "Interviewers grade whether you trust code you didn't write."
+    ],
+    [
+      "body",
+      "Trust nothing. Verify out loud."
+    ]
+  ],
+  [
+    [
+      "apptitle",
+      "Reflecka"
+    ],
+    [
+      "sub",
+      "Read real code. Say what breaks. Get scored."
+    ],
+    [
+      "cta",
+      "Start a session → reflecka.com"
+    ]
+  ]
+]

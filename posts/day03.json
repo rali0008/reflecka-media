@@ -1,0 +1,101 @@
+[
+  [
+    [
+      "kicker",
+      "What gets you hired · Day 3"
+    ],
+    [
+      "hero",
+      "\"Fails one test.\nWalk me through it.\""
+    ],
+    [
+      "code",
+      [
+        "def search(a, x):",
+        "    lo, hi = 0, len(a) - 1",
+        "    while lo < hi:",
+        "        mid = (lo + hi) // 2",
+        "        if a[mid] < x: lo = mid + 1",
+        "        else: hi = mid",
+        "    return lo if a[lo] == x else -1"
+      ]
+    ],
+    [
+      "chip",
+      [
+        "fail",
+        "Failed",
+        "search([], 3) → IndexError"
+      ]
+    ]
+  ],
+  [
+    [
+      "kicker",
+      "Bad answer"
+    ],
+    [
+      "quote",
+      {
+        "cls": "a",
+        "who": "candidate 1",
+        "text": "\"Binary search. Let me add some prints and see.\""
+      }
+    ]
+  ],
+  [
+    [
+      "kicker_blue",
+      "Good answer"
+    ],
+    [
+      "quote",
+      {
+        "cls": "b",
+        "who": "candidate 2",
+        "text": "\"It halves toward x, then checks a[lo]. On an empty list there is no a[0], so it throws instead of returning -1. I'd guard the empty case first.\""
+      }
+    ],
+    [
+      "code",
+      [
+        [
+          "hl",
+          "    return lo if a[lo] == x else -1"
+        ],
+        [
+          "ok",
+          "    if not a: return -1"
+        ]
+      ]
+    ]
+  ],
+  [
+    [
+      "kicker",
+      "Why it matters"
+    ],
+    [
+      "hero",
+      "Interviewers grade how you narrow it down."
+    ],
+    [
+      "body",
+      "Out loud. Before you run it."
+    ]
+  ],
+  [
+    [
+      "apptitle",
+      "Reflecka"
+    ],
+    [
+      "sub",
+      "Read real code. Say what breaks. Get scored."
+    ],
+    [
+      "cta",
+      "Start a session → reflecka.com"
+    ]
+  ]
+]

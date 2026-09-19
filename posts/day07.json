@@ -1,0 +1,99 @@
+[
+  [
+    [
+      "kicker",
+      "What gets you hired · Day 7"
+    ],
+    [
+      "hero",
+      "\"All tests pass.\nWould you ship it?\""
+    ],
+    [
+      "code",
+      [
+        "def strip(items, x):",
+        "    for i in items:",
+        "        if i == x:",
+        "            items.remove(x)",
+        "    return items"
+      ]
+    ],
+    [
+      "chip",
+      [
+        "pass",
+        "Passed",
+        "5 / 5 tests"
+      ]
+    ]
+  ],
+  [
+    [
+      "kicker",
+      "Bad answer"
+    ],
+    [
+      "quote",
+      {
+        "cls": "a",
+        "who": "candidate 1",
+        "text": "\"Tests pass. Ship it.\""
+      }
+    ]
+  ],
+  [
+    [
+      "kicker_blue",
+      "Good answer"
+    ],
+    [
+      "quote",
+      {
+        "cls": "b",
+        "who": "candidate 2",
+        "text": "\"It passes because no test has x twice in a row. Removing while iterating skips the next element, so [1, 1, 2] keeps a 1. I'd return a new list instead.\""
+      }
+    ],
+    [
+      "code",
+      [
+        [
+          "hl",
+          "            items.remove(x)"
+        ],
+        [
+          "ok",
+          "    return [i for i in items if i != x]"
+        ]
+      ]
+    ]
+  ],
+  [
+    [
+      "kicker",
+      "Why it matters"
+    ],
+    [
+      "hero",
+      "Interviewers grade what green tests hide."
+    ],
+    [
+      "body",
+      "Passing is not the same as correct."
+    ]
+  ],
+  [
+    [
+      "apptitle",
+      "Reflecka"
+    ],
+    [
+      "sub",
+      "Read real code. Say what breaks. Get scored."
+    ],
+    [
+      "cta",
+      "Start a session → reflecka.com"
+    ]
+  ]
+]

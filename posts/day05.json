@@ -1,0 +1,96 @@
+[
+  [
+    [
+      "kicker",
+      "What gets you hired · Day 5"
+    ],
+    [
+      "hero",
+      "\"AI wrote this.\nDoes it do what you asked?\""
+    ],
+    [
+      "code",
+      [
+        "def average(nums):",
+        "    return sum(nums) / len(nums)"
+      ]
+    ],
+    [
+      "chip",
+      [
+        "pass",
+        "Passed",
+        "3 / 3 tests"
+      ]
+    ]
+  ],
+  [
+    [
+      "kicker",
+      "Bad answer"
+    ],
+    [
+      "quote",
+      {
+        "cls": "a",
+        "who": "candidate 1",
+        "text": "\"Yep, looks right to me.\""
+      }
+    ]
+  ],
+  [
+    [
+      "kicker_blue",
+      "Good answer"
+    ],
+    [
+      "quote",
+      {
+        "cls": "b",
+        "who": "candidate 2",
+        "text": "\"Right for any non-empty list. An empty list divides by zero, and none of the tests cover it. I'd ask what the average of nothing should return, then guard it.\""
+      }
+    ],
+    [
+      "code",
+      [
+        [
+          "hl",
+          "    return sum(nums) / len(nums)"
+        ],
+        [
+          "ok",
+          "    return sum(nums) / len(nums) if nums else 0"
+        ]
+      ]
+    ]
+  ],
+  [
+    [
+      "kicker",
+      "Why it matters"
+    ],
+    [
+      "hero",
+      "Interviewers grade whether you check AI's work."
+    ],
+    [
+      "body",
+      "Reading code is the job now."
+    ]
+  ],
+  [
+    [
+      "apptitle",
+      "Reflecka"
+    ],
+    [
+      "sub",
+      "Read real code. Say what breaks. Get scored."
+    ],
+    [
+      "cta",
+      "Start a session → reflecka.com"
+    ]
+  ]
+]

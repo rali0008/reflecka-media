@@ -1,0 +1,100 @@
+[
+  [
+    [
+      "kicker",
+      "What gets you hired · Day 4"
+    ],
+    [
+      "hero",
+      "\"All tests pass.\nWould you ship it?\""
+    ],
+    [
+      "code",
+      [
+        "def is_palindrome(s):",
+        "    return s == s[::-1]"
+      ]
+    ],
+    [
+      "chip",
+      [
+        "pass",
+        "Passed",
+        "4 / 4 tests"
+      ]
+    ]
+  ],
+  [
+    [
+      "kicker",
+      "Bad answer"
+    ],
+    [
+      "quote",
+      {
+        "cls": "a",
+        "who": "candidate 1",
+        "text": "\"One line, tests pass. Ship it.\""
+      }
+    ]
+  ],
+  [
+    [
+      "kicker_blue",
+      "Good answer"
+    ],
+    [
+      "quote",
+      {
+        "cls": "b",
+        "who": "candidate 2",
+        "text": "\"Works for the tests, but 'Race car' fails. Before shipping I'd ask whether case and spaces count. That's a spec question, not a code question.\""
+      }
+    ],
+    [
+      "code",
+      [
+        [
+          "hl",
+          "    return s == s[::-1]"
+        ],
+        [
+          "ok",
+          "    t = s.replace(' ', '').lower()"
+        ],
+        [
+          "ok",
+          "    return t == t[::-1]"
+        ]
+      ]
+    ]
+  ],
+  [
+    [
+      "kicker",
+      "Why it matters"
+    ],
+    [
+      "hero",
+      "Interviewers grade what you ask before shipping."
+    ],
+    [
+      "body",
+      "Not how fast you say yes."
+    ]
+  ],
+  [
+    [
+      "apptitle",
+      "Reflecka"
+    ],
+    [
+      "sub",
+      "Read real code. Say what breaks. Get scored."
+    ],
+    [
+      "cta",
+      "Start a session → reflecka.com"
+    ]
+  ]
+]
